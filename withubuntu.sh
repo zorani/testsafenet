@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 wget -qO- https://safe-api.s3.amazonaws.com/install.sh | bash
-source .bashrc
+source ~/.bashrc
 safe update
 safe auth install
 safe auth update
